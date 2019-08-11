@@ -1,38 +1,87 @@
-> Yet another man.
 
-Hi, I am _@huxpro_ (Huang, Xuan), a software engineer & a designer. I am currently working on programming langugaes at [Facebook](https://www.facebook.com/). I previously worked as Web Front-End Engineer at [Alibaba Trip](https://www.alitrip.com/); Web Front-End Infrastructure Team Lead at [Wepiao.com](https://www.crunchbase.com/organization/wepiao#/entity); And [Invited Consultant on PWA](<(https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509)>) at [Ele.me](https://github.com/elemefe/).
+> Write down, pour it out, 
+> everything you'll ever discover is already in your heart.
 
-I studied Digital Media Art and graduated from [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) by 2016, and am studying Computer Science at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology) from 2017.
+Hey, I am Aayusha Paudel, a computer science student at Deerwalk Institute of Technology. I am a professional
+backend developer striving to build immersive web applications through carefully crafted code.
+I have been involved in several web development projects since the past two years, 
+and currently I am specifically working on Blockchain and writing blog using Jekyll.
 
-##### My Programming Languages Spectrum
+### My Education
+I am a undergrad student in computer science of Deerwalk Institute of Technology focusing my professional
+carrer almost on Developing.
+<html>
+<ul>
+<li>School - Pathshala Nepal Foundation </li>
+<li>High School - United Academy</li>
+<li>Bachelors - (BSc. Csit) Deerwalk Institute of Technology</li>
+</ul>
+</html>
 
-|     | 💔️           | ❤️ ️                                          | ❤️❤️ ️                                          | ❤️❤️❤️ ️                                      |
-| --- | ------------- | --------------------------------------------- | ----------------------------------------------- | --------------------------------------------- |
-| 😅  | `PHP` `BASIC` | `C` `Prolog` <br> `Objective-C`               | `Kotlin` `Dart` `MIPS`                          | `Swift` `Agda` `Idris`                        |
-| 🧐  |               | `C++` `Hack` <br> `Scheme` `Racket` `Clojure` | `C++ >11` `C#` `Typed Py` <br> `ActionScript 3` | `Scala` `Rust`                                |
-| 😏  | `Shell`       | `Java` `Python`                               | `TypeScript` `Flow` `WASM`                      | `Haskell` `Coq` <br> `SML` `OCaml` `ReasonML` |
-| 🤓  |               | `JavaScript`                                  | `Javascript >ES6`                               | `λ` `Λ` `Π` `Σ`                               |
+### My Experiences
+Before professionally diving into developing, I have been involved into several other works that has made me capable to adjust into working environments.
+<html>
+<h6>DWIT Library, Sifal - Lead Library Supervisor</h6>
+<ul>
+<li>Supervised six members to effectively run daily library tasks.</li>
+<li>Accountable for basic to advance library responsibilities.</li>
+</ul>
 
-> To be continue: `Fortran` `Smalltalk` `Pascal` `Forth` `Ruby` `CoffeeScript` `Go` `Elm` `Erlang` `Elixir` `F#` `F*` `Q#` `Nim` `Haxe` `Cyclone` `VimScript` `Perl` `Lua` `AppleScript`
+<h6>Four Tuples Solution, Babermahal - Intern/Linguistics</h6>
+<ul>
+<li>Carried out translation of a set of Chinese Historical and Cultural book.</li>
+</ul>
 
-##### Talks
+<h6>Four Tuples Solution, Babermahal - Intern/Developer</h6>
+<ul>
+<li>Made an in house application in PHP named `Employee Manager`, an interface to track working logs of employees and the projects they are working on.  </li>
+</ul>
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
-- [Service Worker 101][5] · GDG DevFest Beijing 2016
-- [Progressive Web Apps][4] · QCon Shanghai 2016
-- Progressive Web App in my POV · GDG IO Redux Beijing 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
+<h6>I-INOVATE LLC, CA - Excel Based Rework Tool</h6>
+<ul>
+<li>A tool made for Inovate in JAVA that takes data in excel and reformat and republish back in excel.</li>
+</ul>
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+<h6>DWIT Project, Sifal - Portal for DWIT</h6>
+<ul>
+<li>Made a portal for DWIT in JAVA SERVLET, that centralizes all the college information and reaches out to its in-house applications.</li>
+</ul>
+
+</html>
+
+
+### My Skills Spectrum
+
+<html>
+<h6>Operating System</h6>
+</html>
+
+`Windows` `Linux` 
+
+
+<html>
+<h6>Programming Languages</h6>
+</html>
+
+`HTML` `CSS` `Bootstrap`  `PHP` `JAVA WEB DEVELOPMENT` `JAVASCRIPT`  `MYSQL`  `JEKYLL`   
+
+### My Certificates
+<html>
+<h6>Certificate of Intern - Four Tuples Solution</h6>
+<ul>
+<li>Developer in PhP</li>
+<li>Translator (Linguistics Department)</li>
+</ul>
+
+<h6>Certificate of Intern - Librarian, DWIT Library</h6>
+
+<h6>Certificate of Completion - UDEMY </h6>
+<ul>
+<li>Java Servlet and JSP</li>
+<li>Introduction to Javascript</li>
+</ul>
+
+</html>
+                          
+
+>  You can further connect with me through [Twitter](https://twitter.com/aayusha_p/) or [Github](http://github.com/aayusha2055).

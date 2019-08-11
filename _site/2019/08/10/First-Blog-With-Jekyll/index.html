@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="The blog is about what i feel writing about.">
+    <meta name="keywords"  content="Travel, Feelings, Food, Computing, Tech">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="First Travel Blog | RARA - Aayusha Writes">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="A group of eight friends, some who knew each other very well, while some who had no idea who the rest of them would be, abruptly decided to go on a trip to the far western land of Nepal.
+Travelling...">
+    
+    <meta property="article:published_time" content="2019-08-10T00:00:00Z">
+    
+    
+    <meta property="article:author" content="Aayusha">
+    
+    
+    
+    <meta property="og:image" content="http://localhost:4000/img/about-me.jpg">
+    <meta property="og:url" content="http://localhost:4000/2019/08/10/First-Blog-With-Jekyll/">
+    <meta property="og:site_name" content="Aayusha Writes">
+    
+    <title>First Travel Blog | RARA - Aayusha Writes</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2019/08/10/First-Blog-With-Jekyll/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Aayusha Writes</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="/archive/">Archive</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="/portfolio/">Portfolio</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/rara.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+
+
+
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/rara.jpg');
+        background: ;
+    }
+
+    
+</style>
+
+<header class="intro-header" >
+
+    <div class="header-mask"></div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>First Travel Blog | RARA</h1>
+                    
+                    <h2 class="subheading">Guides on travelling to rara and some personal experiences </h2>
+                    <span class="meta">Posted by Aayusha on August 10, 2019</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <!-- Multi-Lingual -->
+                
+
+                <p>A group of eight friends, some who knew each other very well, while some who had no idea who the rest of them would be, abruptly decided to go on a trip to the far western land of Nepal.
+Travelling usually takes a lot of patience, specially when the place you’re about to go has difficult roads, difficult transportation facilities and the most important one: when you’re budget travelling.</p>
+
+<p>Travelling far away with friends as we scramble in the roads, it honestly is a unifying bond that doesn’t discriminate or judge. Packed up and ready from the bus park in Kathmandu, we headed towards Amilia, Dang where a friend of ours awaited with a reserved jeep.
+The bus took off at seven in the evening and so did our adrenalin. With lots of stories to share, and extreme junk food packages, the road trip to Amilia ended in a blink of an eye.
+Travelling allows you to enjoy to the fullest, warms the depth of your soul and always leaves you curious with what the next minute has to offer. And that’s what we were, young and curious.</p>
+
+<p>The place we were headed was one of the best place Nepal has to offer to you. The place beyond the beautiful horizon and something that was phrased as, “Heaven is a myth. Rara is real”. When I think of it now, I feel as if my journey is a dream that fills
+the root of my heart and gives me the feeling of accomplishment.</p>
+
+<p>Rara lake is the biggest freshwater lake in Nepal. Situated in a small district of Nepal, Mugu, surrounded by hills all around at an altitude of 2990m is one of the must visit place in Nepal. Often times people assume that you got to trek to reach there,
+but we have several other ways to explore western Nepal and the lake itself.</p>
+
+<h3 id="ways-to-travel">WAYS TO TRAVEL</h3>
+
+<h6 id="airways">Airways</h6>
+
+<ol>
+  <li>Take a flight from Kathmandu to Nepalgunj and from Nepalgunj to Talcha Airport. Rara lake is four hour hike away from Talcha airport.</li>
+  <li>You can also take a flight from Nepalgunj to Jumla. From Jumla you need to either take a bus or jeep to Gamagadhi. Gamagadhi is the district headquarters of Mugu. The lake is five hours hike from Gamagadhi.</li>
+</ol>
+
+<h6 id="roadways">Roadways</h6>
+<ol>
+  <li>
+    <p>Take a bus to Surkhet or Nepalgunj. You can get a bus to Kalikot which would be a whole day drive. From Kalikot, you got to switch bus to Nagma and from Nagma another bus that leads to Gamagadhi. As mentioned earlier, the lake is five hours hike from Gamagadhi. 
+The bus travels along the famous Karnali Highway.</p>
+  </li>
+  <li>
+    <p>The second and the most flexible and comfortable way would be to reserve a jeep. You do not necessarily need to reserve it from the place you live in. We travelled to Dang by bus and 
+reserved a jeep there for five days which cost us around forty five thousand Nepali Rupees for eight people.</p>
+  </li>
+</ol>
+
+<h6 id="trek">Trek</h6>
+<p>Rara lies in the Karnali region that has amazing landscapes and experience the authentic western past of Nepal from food to people. 
+You can find several options in the internet if you look for Khaptak trek that en routes Rara Lake.</p>
+
+<h3 id="travel-like-we-did">TRAVEL LIKE WE DID</h3>
+
+<h5 id="day-1">Day 1</h5>
+<p>First day of our travel actually started at 7pm in the evening, in the night bus, with friends on the highway to Western Nepal. I personally knew everyone of them, but yes, there were people who hadn’t met each other their entire life.
+To be honest, travelling with strangers lets you leave your shit behind and focus only on the wonderful stories to talk about. The challenge this time was not only to explore a different environment but also new people and let your guards down.</p>
+
+<p>Like mentioned earlier we took a bus from Kathmandu upto Amilia, Dang where a friend of ours was waiting with a reserved jeep and started our road trip.
+One of the best part of tripping around west is the fields on Terai, the vibes Bardiya National Park gives in between and the variety of animals you spot in between. We had our lunch in Kohalpur and headed towards Surkhet. And would you even call it a road trip if your tire doesn’t get punctured at least once? Plannings beforehand did let us know that our destination for the day was Manma,
+but because punctured tire took time, we started late and reached to Rakham that night.</p>
+
+<h6 id="accommodation-at-rakam">Accommodation at Rakam</h6>
+<p>You can pretty much expect good accommodation upto Surkhet but after that you meet people who might even sleep at the floor but give you their bed. Sometimes, it’s the materialistic things people want, but when someone would sacrifice their comfort for yours, that’s when you know, you’ve met a good soul. 
+People there do not have much to offer except for what they have and that honestly stands out. At Rakham, you do not find big hotels but you can find enough home with bigger hearts. The one we stayed had a family of five who made us delicious Nepali Thali, with a taste of Karnali, cooked in fire with love.</p>
+
+<p>When we asked what they would cost for a night, they said we only need to pay for the food and pay what we feel like for the accommodation. We then paid three thousand rupees to the family of the home stay and they gave us warm farewell full of blessings and good luck.</p>
+
+<h5 id="day-2">Day 2</h5>
+
+<p>Second day started with much excitement than the previous one because the lake awaited us more than anything. Reaching Manma the first day would have made our schedule up to time, but when they say whatever happens, happens for best, they are true. Our next stop for lunch was Nagma. The road to Nagma wasn’t that sophisticated but people we were with taught us to live in the moment and enjoy it. As the roads started getting complex,
+friends started getting simpler. And when we finally rested our butts out of the jeep in Nagma, the view we had in front of us was amazing. The barren hills, the over speed flow of river, the sound the water flow was making, at most 10 houses attached with one other, and people with rough red cheeks did let us realize that people do live in such places which had nothing yet everything. The river that flows had the purest freshwater.
+The views, the bridges and small architect in them that signifies Kings and Queens were worth the watch. Since we were half day late according to the schedule we had made, so after filling our tummy with yummy food at Nagma we decided that we will not be stopping any way until we reach to our destination.</p>
+
+<p>At about 6 in the evening we finally entered the Khaptad National Park region where we were suggested not to go further and rather spend the night somewhere
+nearby but because we were so determined to see the lake before our eyes first thing in the morning we didn’t stop. At 9:30 pm we reached to Salleri, from where the road ends, and travellers have to hike. The locals there suggested us to stay rather than to hike at night, but our young blood, fueled hormones didn’t let us stop. So finally, in the cold windy shivering weather of Rara, we decided to walk up until we reach to our hotel. I tell you, the hike was worth the effort we had made
+until then, worth the equation everyone shares today, and worth the bond that got stronger. When we finally reached our hotel at about past midnight, we were warmly welcomed with hot waters and fresh food. We got our tents and finally slept not knowing what the day after had to offer us.</p>
+
+<h5 id="day-3">Day 3</h5>
+
+<p>Since waking up to the lake was what everyone of us had in our mind, early morning at Rara had a surprise for us. It snowed for the first time that year, and the view was worth the travel. Google pictures of Rara always had few of them covered with snow, but to see it right in front of your eyes, the process, where slowly all the greens turn into white withing a short span of time is breathtaking. The only thing that was disturbing was the unconditional cold that 
+wasn’t going anywhere until the sun showed up. And no matter how much you want the snow, you’ll eventually crave for the sun. The only way to beat the cold weather was to hike around the biggest freshwater lake and few minutes later, the beauty of lake warms you up naturally. We were served delicious breakfast that morning, that had roasted potatoes, omelet, typical nepali chapatis of buckwheat and a warm cup of tea. We spent the rest of the day, in front of the lake, 
+admiring its beauty. Few friends of mine, further hiked to Murma Top, which is said to be the view-point of Rara.</p>
+
+<h5 id="day-4">Day 4</h5>
+
+<p>After having our breakfast the morose thought of leaving this place hit me I did not want to leave. But like the old saying goes, “All good things must come to an end”, it was time to bid farewell to this beautiful place.</p>
+
+<p>However, Rara decided to give us a warm and sunny goodbye. As we sail our boat on the lake the sun and the lake sang the song of colours in unison; The lake was blue, green and yellow all at once. At that particular instant I wanted time to freeze; alas! That was not an option. We left with a heavy heart, and a determined soul to come back sooner than later. We followed the same trail embracing each moment to catch our jeep where we left it a couple of days back.</p>
+
+<p>We were very lucky to have a good driver who would laugh in our jokes, and add his own wit. We spent our night at Nagma, retaliating entire journey, and reminding oneself that it was going to end soon.</p>
+
+<h5 id="day-5">Day 5</h5>
+<p>Typically, we had to reach to Amilia by hook or by cook that day, which is a 13 hours drive from Nagma, and I personally respect our driver for achieving it. We did breakfast in the same hotel we stayed,
+did our lunch in Manma and dinner somewhere after Bardiya National Park. We rushed to Ghorahi, Dang after dinner and at about two in the midnight, we reached there. Two of our friends departed to Kathmandu from their immediately. One who came in the jeep went along with it, and five of us headed towards Butwal. At about four in the morning, we finally got a bus that went Butwal so we took it. The 2am to 4am wait in Ghorahi for the bus is a story for next time.</p>
+
+<h3 id="overall-expenses-per-person">Overall Expenses (Per Person)</h3>
+<ol>
+  <li>From KTM to Amilia, Dang : 1400 Rupees (You can get a cheaper fare)</li>
+  <li>From Amilia to Rara and back to Ghorahi : 11000 Rupees</li>
+  <li>From Ghorahi to Butwal : 200 Rupees</li>
+  <li>From Ghorahi to Kathmandu : 1 Thousand Rupees (You can get a cheaper fare)</li>
+</ol>
+
+
+
+                <hr style="visibility: hidden;">
+                <ul class="pager">
+                    
+                    
+                </ul>
+                <hr style="visibility: hidden;">
+
+                
+                <!-- disqus 评论框 start -->
+                <div class="comment">
+                    <div id="disqus_thread" class="disqus-thread"></div>
+                </div>
+                <!-- disqus 评论框 end -->
+                
+
+                
+            </div>
+
+            <!-- Side Catalog Container -->
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+
+<section>
+    
+        <hr class="hidden-sm hidden-xs">
+    
+    <h5><a href="/archive/">FEATURED TAGS</a></h5>
+    <div class="tags">
+        
+        
+        
+        
+        
+    </div>
+</section>
+
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- add support for mathjax by voleking-->
+
+
+
+
+
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "aayushapaudel";
+    var disqus_identifier = "/2019/08/10/First-Blog-With-Jekyll";
+    var disqus_url = "http://localhost:4000/2019/08/10/First-Blog-With-Jekyll/";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+        var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+        o.src = u;
+        if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+        s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+            visible: 'always',
+            placement: 'right',
+            icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- SNS Link -->
+                
+
+
+<ul class="list-inline text-center">
+
+
+  
+  
+  <li>
+    <a href="https://twitter.com/aayusha_p">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  
+  
+  
+  <li>
+    <a target="_blank" href="https://github.com/aayusha2055">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+  
+  <li>
+    <a target="_blank" href="https://www.linkedin.com/in/aayusha-paudel">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  
+</ul>
+
+                <p class="copyright text-muted">
+                    Copyright &copy; Aayusha Writes 2019
+                    <br>
+                    Powered by <a href="http://huangxuan.me">Hux Blog</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script src="/js/snackbar.js "></script>
+<script src="/js/sw-registration.js "></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!--
+     Because of the native support for backtick-style fenced code blocks
+     right within the Markdown is landed in Github Pages,
+     From V1.6, There is no need for Highlight.js,
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+
+
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+<script>
+    // dynamic User by Hux
+    var _gaId = '';
+    var _gaDomain = '';
+
+    // Originial
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', _gaId, _gaDomain);
+    ga('send', 'pageview');
+</script>
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+    function generateCatalog (selector) {
+
+        // interop with multilangual 
+        if ('' == 'true') {
+            _containerSelector = 'div.post-container.active'
+        } else {
+            _containerSelector = 'div.post-container'
+        }
+
+        // init
+        var P = $(_containerSelector),a,n,t,l,i,c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        // clean
+        $(selector).html('')
+
+        // appending
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#"+$(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="'+i+'" rel="nofollow">'+t+'</a>');
+            l = $('<li class="'+n+'_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    // toggle side catalog
+    $(".catalog-toggle").click((function(e){
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    /*
+     * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+     * Fork by Hux to support padding
+     */
+    async("/js/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+<!-- Multi-Lingual -->
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 # Site settings
 title: Aayusha Writes
 SEOTitle:  Aayusha Writes
-header-img: img/home-bg.jpg
+header-img: img/headerimageatindex.jpg
 email: asdas@gmail.com
 description: "The blog is about what i feel writing about."
 keyword: "Travel, Feelings, Food, Computing, Tech"
@@ -25,7 +25,7 @@ linkedin_username:  aayusha-paudel
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
@@ -36,7 +36,8 @@ anchorjs: true                          # if you want to customize anchor. check
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-seo-tag]
+
 
 
 
@@ -76,8 +77,9 @@ ga_track_id: ''            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br> lalalalalashjiajsdijuasgdasdukhyy"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "The less boring site of internet<br>"
+sidebar-avatar: /img/about-me.jpg
+# use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
