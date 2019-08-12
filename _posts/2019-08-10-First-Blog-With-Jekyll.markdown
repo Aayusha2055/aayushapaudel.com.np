@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "First Travel Blog | RARA"
-subtitle:   "Guides on travelling to rara and some personal experiences "
+subtitle:   "Guides on travelling to Rara and some personal experiences "
 date:       2019-08-10 
 author:     "Aayusha"
 header-img: "img/rara.jpg"
+image: "img/rara.jpg"
 catalog: true
-featured-tags:
+tags:
     - travel
     - guides
     - rara
