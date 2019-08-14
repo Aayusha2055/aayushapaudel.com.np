@@ -12,6 +12,7 @@ tags:
     - guides
     - rara
     - visitrara2020
+    - visitnepal2020
 ---
 
 A group of eight friends, some who knew each other very well, while some who had no idea who the rest of them would be, abruptly decided to go on a trip to the far western land of Nepal.
