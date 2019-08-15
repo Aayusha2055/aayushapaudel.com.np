@@ -63,7 +63,7 @@ the same time.
 ### Halal, Dhobidhara Marg 
 Halal is another local eateries in Kathmandu, that serves you delicious biryani at the cheapest rate. There are several other places that
 serves you authentic biryani as well, but they are extremely expensive. And that's how hunting a place that serves authentic
-biryani was important to me. When I finally found the place, I was excited to try my taste 
+biryani was important to me. When I finally found the place, I was excited to try my taste. 
 They serve a plate for 200Rs only. The spices in their biryani is rich.The sad part is that because the preparation takes time, they only serve
 it on Sundays, Tuesdays and Fridays. Personally, for a biryani lover like me, it’s a win win.
 
@@ -76,9 +76,9 @@ it on Sundays, Tuesdays and Fridays. Personally, for a biryani lover like me, it
 
 
 ### Syanko's Katti Roll
-Syanko's Katti Roll can now be phrased as the "national katti roll", as their branches are quite spread all over the valley now, serving us delicious rolls since the past fifteen years. My personal one around Kathmandu lies at two places, one at Sinamangal, which not only offers you delicious
+Syanko's Katti Roll can now be phrased as the "national katti roll", as their outlet are quite spread all over the valley now, serving us delicious rolls since the past fifteen years. My personal one around Kathmandu lies at two places, one at Sinamangal, which not only offers you delicious
 rolls, but also has variety of other fast foods and the other one lies at Baneshwor, whose menu is limited to rolls only. These are the
-oldest Syanko's Rolls at Kathmandu.
+oldest Syanko's Rolls at Kathmandu. You should definitely try their double egg double chicken roll. You'll love it.
 
 
  > ##### Location
@@ -91,7 +91,7 @@ oldest Syanko's Rolls at Kathmandu.
 
 ### Khawa Kharpo Noodles Factory, Fulbari, Bouddha
 If you happen to be around Bouddha, noodles of Khawa Kharpo is a must try. The shop lies at about five minutes walk from
-the stupa and serves you the best plate of noodles you'll ever eat. As the name of the place "factory”,  the noodles are their in-house
+the stupa and serves you the best plate of noodles you'll ever eat. Like the name itself says "factory”,  the noodles are their in-house
 production. They produce the noodles, cook it and serve you fresh right in front of your eyes. It generally opens up after 11 A.M so make
 sure you don't go there for breakfast. White boiled noodles, served with fresh Chinese Spinach with the choice of your toppings(buff or egg)
 and their sauce is actually a treat to your taste buds. They also serve another Tibetan dish named “Laphing”, which also is worth a try.
@@ -120,9 +120,9 @@ well with the sweet-tangy sauce.
 
 ### NPP Fast Food, Newroad
 Any fast food lover in Nepal loves what NPP has to offer and specially its their in house sauce that has won hearts ever since.
-People here basically loves NPP and the variety of stick foods along with their momo. NPP Food Service also has successfully been
+People here basically love NPP and the variety of stick foods along with their momo. NPP Food Service also has successfully been
 able to open various outlets in the valley. You should definitely try out their sausage, potato sticks, tofu and momo if you ever happen
-to be there. Another recommendation would be to have their c-momo with is a win win too.
+to be there. Another recommendation would be to have their c-momo which is a win win too.
 
  > ##### Location
  > When you reach to Bishal Bazar at New Road, take your left until you reach a junction. About five minutes walk and you'll find this amazing food joint 
@@ -136,7 +136,7 @@ Jhigu che by far is my top favourite newari food joints around Kathmandu. Locate
 serves you authentic newari cuisine with best of flavours. A family run local shop has a limited items in their menu but they have
 been able to take their creativity to a different level by inventing water momo. Water momo is basically momo made by 
 boiling in the water. When we asked how was it possible, the chef explained that it took him almost six months to finally success
-into making water boiled momos. They have the tastiest veg choila i.e. soyabean served with mixed spices in town. This place
+into making water boiled momos. They have the tastiest veg choila i.e. soyabean served with mixed spices. This place
 is definitely a must visit place if you are around Chabahil.
 
  > ##### Location
@@ -172,10 +172,11 @@ the interior hasn't been changed or renovated.
 
 
 ### Grill Durbar, Sankhamul
-If you ever crave for a big piece of grilled meat, then my friend, grill durbar is your ultimate saviour. Grill durbar
-has a variety on the grills starting from normal to extremely spicy to normal ones. It is loaded with flavours and the spicy sauce
-they serve along with is to die for. With very reasonable price, though this place doesn't seem to be a local one,
+If you ever crave for a big piece of grilled meat,  grill durbar, without a doubt the is the ultimate saviour. Grill durbar
+has a variety on the grills starting from normal to extremely spicy. It is loaded with flavours and the spicy sauce
+they serve along is to die for. With very reasonable price, though this place doesn't seem to be a local one,
 it is a small shop with large packets of flavours.
+
 
  > ##### Location
  > From Baneshowr Chowk, you got to take the road to Sankhamul. You have to go downhill untill you find a turning. Grill durbar is
@@ -186,4 +187,6 @@ it is a small shop with large packets of flavours.
 
 There are several other places that serves you delicious foods at amazing prices. I have only highlighted the places located at
 Kathmandu. Soon, I will be writing on local eateries around Lalitpur.
+
+ > What's your favourite place to eat around the valley? Put them in the comment box. Until next time peace.
 
