@@ -1,0 +1,118 @@
+---
+title: "About me"
+layout: default
+permalink: "/about-me.html"
+---
+
+<div class="container">
+<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+    <div class="row gap-y listrecent listrecent listauthor">
+
+    {% for author in site.authors %}
+        <div class="col-lg-12 md-4">
+            <div class="p-4 border rounded">
+            <div class="row">
+            <div class="col-md-4"><img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80"></div>
+            <div class="col-md-12"><br>
+            <h4 class="text-dark mb-0"> Aayusha Paudel</h4>
+                <div class="icon-block mt-3 d-flex justify-content-between">
+                    <div>
+                    <a target="_blank" href="{{ author[1].twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
+                    <a target="_blank" href="{{ author[1].site }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
+                </div>
+                </div>
+<!--            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>-->
+            <div class="excerpt">
+                Hey, I am Aayusha Paudel, a computer science student at Deerwalk Institute of Technology. I am a professional
+                backend developer striving to build immersive web applications through carefully crafted code.
+                I have been involved in several web development projects since the past two years,
+                and currently I am specifically working on Blockchain and writing blog using Jekyll.
+            </div>
+                <br>
+                <h5 class="text-dark mb-1">My Education</h5>
+                <div class="excerpt">
+                    I am a undergrad student in computer science of Deerwalk Institute of Technology focusing my professional
+                    career almost on Developing.
+                    <ul>
+                        <li>School - Pathshala Nepal Foundation </li>
+                        <li>High School - United Academy</li>
+                        <li>Bachelors - (BSc. Csit) Deerwalk Institute of Technology</li>
+                    </ul>
+                </div>
+
+                <br>
+                <h5 class="text-dark mb-1">My Experiences</h5>
+                <div class="excerpt">
+                    Before professionally diving into developing, I have been involved into several other works that has made me capable to adjust into working environments.
+                    <h6 class="text-primary">DWIT Library, Sifal - Lead Library Supervisor</h6>
+                    <ul>
+                        <li>Supervised six members to effectively run daily library tasks.</li>
+                        <li>Accountable for basic to advance library responsibilities.</li>
+                    </ul>
+
+                    <h6 class="text-primary">Four Tuples Solution, Babermahal - Intern/Linguistics</h6>
+                    <ul>
+                        <li>Carried out translation of a set of Chinese Historical and Cultural book.</li>
+                    </ul>
+
+                    <h6 class="text-primary">Four Tuples Solution, Babermahal - Intern/Developer</h6>
+                    <ul>
+                        <li>Made an in house application in PHP named `Employee Manager`, an interface to track working logs of employees and the projects they are working on.  </li>
+                    </ul>
+
+                    <h6 class="text-primary">I-INOVATE LLC, CA - Excel Based Rework Tool</h6>
+                    <ul>
+                        <li>A tool made for Inovate in JAVA that takes data in excel and reformat and republish back in excel.</li>
+                    </ul>
+
+                    <h6 class="text-primary">DWIT Project, Sifal - Portal for DWIT</h6>
+                    <ul>
+                        <li>Made a portal for DWIT in JAVA SERVLET, that centralizes all the college information and reaches out to its in-house applications.</li>
+                    </ul>
+                </div>
+
+                <br>
+                <h5 class="text-dark mb-1">My Skills Spectrum</h5>
+                <div class="excerpt">
+                    <h6 class="text-primary">Operating System</h6>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Windows</li>
+                    </ul>
+
+                    <h6 class="text-primary">Programming Languages</h6>
+                    <ul>
+                        <li>HTML, CSS, BOOTSTRAP</li>
+                        <li>PHP</li>
+                        <li>JAVA WEB DEVELOPMENT</li>
+                        <li>MYSQL</li>
+                        <li>JEKYLL</li>
+                    </ul>
+                </div>
+
+                <br>
+                <h5 class="text-dark mb-1">My Certificates</h5>
+                <div class="excerpt">
+                    <h6 class="text-primary">Certificate of Intern - Four Tuples Solution</h6>
+                    <ul>
+                        <li>Developer in PhP</li>
+                        <li>Translator (Linguistics Department)</li>
+                    </ul>
+                    <h6 class="text-primary">Certificate of Intern - Librarian, DWIT Library</h6>
+
+                    <h6 class="text-primary">Certificate of Completion - UDEMY </h6>
+                    <ul>
+                        <li>Java Servlet and JSP</li>
+                        <li>Introduction to Javascript</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+            </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

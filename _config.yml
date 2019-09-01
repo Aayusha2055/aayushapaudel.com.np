@@ -1,137 +1,57 @@
-# Site settings
-title: Aayusha Writes
-SEOTitle:  Aayusha Writes
-header-img: img/headerimageatindex.jpg
-email: aayusha2055@gmail.com
-description: "The blog is about what i feel writing about."
-keyword: "Travel, Feelings, Food, Computing, Tech"
-url: ""              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# Site
+name: 'Aayusha Writes'
+description: 'Writing and making memories.'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+baseurl: '/mundana-theme-jekyll'
+disqus: 'aayushapaudel'
+email: 'aayusha2055@gmail.com'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
-# Publish posts or collection documents with a future date.
-future: true
+include: ["_pages"]
+permalink: /:title/
 
-# SNS settings
-RSS: false
-github_username:    aayusha2055
-twitter_username:   aayusha_p
-instagram_username:  aayusha.p
-linkedin_username:  aayusha-paudel
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    Aayusha:
+      name:           Aayusha
+      site:           https://github.com/Aayusha2055
+      avatar:         /assets/images/avatar.jpg
+      bio:            "Hi, I am Aayusha, a blogger, who loves to explore people and places and keep writing about it. I hope you like it!"
+      email:          aayusha2055@gmail.com
+      twitter:        https://twitter.com/aayusha_p
+ 
+# Defaults
+defaults:
 
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate, jekyll-seo-tag]
-
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: Aayusha
+      avatar: /assets/images/avatar.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
 markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+highlighter: rouge
+
+# Paginate
+paginate: 10
 
 
 
-# Disqus settings
-disqus_username: aayushapaudel
-
-# Netease settings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: ''            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "The less boring site of internet<br>"
-sidebar-avatar: /img/about-me.jpg
-# use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
-
-## Friends
-#friends: [
-#    {
-#    #     title: "Su",
-#    #     href: "http://su.gallery/"
-#    # },{
-#        title: "乱序",
-#        href: "http://mida.re/"
-#    },{
-#        title: "前端外刊评论",
-#        href: "http://qianduan.guru/"
-#    },{
-#        title: "天镶的博客",
-#        href: "http://lingyu.wang/"
-#    },{
-#        title: "Luke 的自留地",
-#        href: "http://hmqk1995.github.io"
-#    },{
-#        title: "Ebn's Blog",
-#        href: "http://ebnbin.com/"
-#    },{
-#        title: "SmdCn's Blog",
-#        href: "http://blog.smdcn.net"
-#    },{
-#        title: "David's Game",
-#        href: "https://www.ruoyaowu.com/"
-#    },{
-#        title: "DHong Say",
-#        href: "http://dhong.co"
-#    },{
-#        title: "尹峰以为",
-#        href: "http://ingf.github.io/"
-#    },{
-#        title: "解旻的博客",
-#        href: "http://xieminis.me/"
-#    }
-#]
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
