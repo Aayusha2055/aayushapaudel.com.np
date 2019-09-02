@@ -4,7 +4,7 @@ title: "Kheer, Nepali Rice Pudding | Home Cooking"
 subtitle:   "An essential Nepali food."
 date:       2019-08-24
 author:     "Aayusha"
-image: assets/images/heer.jpg
+image: assets/images/Kheer.jpg
 catalog: true
 tags:
    - Food
