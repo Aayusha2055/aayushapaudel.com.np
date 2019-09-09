@@ -45,7 +45,7 @@ perfect piece of food to eat and enjoy.
          
 <div class="recipe-contents">
  <div class="ingredients">
-   <h2>Ingredients</h2>
+   <h2 class="text-primary">Ingredients</h2> 
      <ul>
        <li>1 cup unsalted butter</li>
        <li>A cup of all purpose flour</li>
@@ -64,7 +64,7 @@ perfect piece of food to eat and enjoy.
  </div>
           
  <div class="directions">
-   <h2>Directions</h2>
+   <h2 class="text-primary">Directions</h2> 
      <ol>
        <li>Butter a medium Bundt pan. In a medium bowl, whisk together flour, salt, cinnamon powder, baking soda, and baking powder.</li>
        <li>Mash the bananas using a fork. You can make a runny paste out of it or keep the chunks.</li>

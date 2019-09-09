@@ -37,19 +37,19 @@ all the ingredients as soon as possible into your kitchen, indulge into it and t
   
 <div class="recipe-contents">
  <div class="ingredients">
-   <h2>Ingredients</h2>
+   <h2 class="text-primary">Ingredients</h2> 
      <ul>
        <li>1 litre milk</li>
        <li>A cup of rice</li>
        <li>50gms sugar</li>
        <li>Pepper</li>
        <li>Dry fruits - Raisins and Almonds</li>
-       <li>Cardamons</li>
+       <li>10 Cardamons seeds</li>
      </ul>
  </div>
           
  <div class="directions">
-   <h2>Directions</h2>
+   <h2 class="text-primary">Directions</h2> 
      <ol>
        <li>Soak the rice in water for about 15 minutes.</li>
        <li>Keep the milk into boil. Completely drain the water from the rice and pour it into boiling milk.</li>

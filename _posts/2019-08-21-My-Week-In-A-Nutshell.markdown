@@ -34,7 +34,7 @@ which can give you enough reasons to feel that the life you're living might not 
 it clicked in my mind to note those many-few small-big things that made me smile. Today, I bring you a blog based on it.
 Mind you, I am extremely sensitive, so even you if you bring me a cup of water, I might cry.
 
-##### On the streets of Basantapur
+<h2 class="text-primary">On the streets of Basantapur</h2> 
 While strolling on the streets of Basantapur, a lot of kids try to convince you to buy a bottle of water from them. I was also a part of
 their small initiative to sell the water. Two kids randomly came to me and offered me to buy one. I on the other hand always
 carry a bottle of water with me. So instead I convinced them that I carry my own bottle. But because they are kids, they kept nagging.
@@ -50,8 +50,7 @@ I still remember their face when they found it to be really good. It still makes
 
 Today, while writing this, I hope they are having a good time and getting the opportunity to go to school everyday.
 
-
-##### Crossing the busy street at Mitrapark
+<h2 class="text-primary">Crossing the busy street at Mitrapark</h2> 
 Lack of self awareness has changed the way of Traffic in Kathmandu. If there aren't any traffic police in every junction, then
 there obviously is a hassle of vehicles and pedestrians. In situations as such, I definitely have a hard time crossing roads every single time.
 Monday was something similar. I was trying to cross one of the busiest streets of Mitrapark. Few others were easily crossing it. Easily
@@ -65,7 +64,8 @@ is if you're scared, you're dead.
 
 He acquainted me to the other side of the road and asked me to brave. I hope he is happily living in his sixties. I wish him good health.
 
-##### Struggling with period pain
+
+<h2 class="text-primary">Struggling with period pain</h2> 
 When I think about periods, and that women have an average of 450 periods in their lifetime, I feel really proud of women all around
 the globe. Cramps, back pain, mood swings, "never-quick-enough" painkillers, hot water bags and hot showers are
 quite on demand and exercise and social plans are off the hook. It's basically that
@@ -80,8 +80,7 @@ To that someone, who held me when I fainted multiple times, who brought me hot w
 and who made sure I ate, I hope I can always pay it forward whenever I get the chance to. Also, I wish good luck, prosperity 
 and a loyal life partner.
 
-
-##### Deciding to be decisive
+<h2 class="text-primary">Deciding to be decisive</h2> 
 There's this weird practice of Nepalese people of believing in astrology and following astrologer's suggestions. That's how
 last week I also ended up with a so called Astrologer that scans the fingerprints of each finger and prepares a 40 page
 documentation on things I have been carrying since birth.

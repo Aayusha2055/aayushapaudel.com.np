@@ -17,6 +17,8 @@ tags:
     - Cheap Foods
     - Street Foods
     
+tags: [featured]
+    
 categories: [ Guide, Food, Kathamndu Eateries ]
 ---
 
