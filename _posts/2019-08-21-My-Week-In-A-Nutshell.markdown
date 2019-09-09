@@ -4,7 +4,7 @@ title: "My Week in a Nutshell | August 2019 "
 subtitle:   "Small things that brought smile to my face."
 date:       2019-08-23
 author:     "Aayusha"
-image: assets/images/smiles.jpg
+image: assets/images/smiles.webp
 catalog: true
 tags:
     - Smile

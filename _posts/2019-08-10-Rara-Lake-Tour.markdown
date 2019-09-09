@@ -4,8 +4,8 @@ title: "Rara Lake Tour | Travel Blog"
 subtitle:   "Guides on travelling to Rara and some personal experiences. "
 date:       2019-08-10 
 author:     "Aayusha"
-header-img: "img/rara.jpg"
-image: assets/images/rara.jpg
+header-img: "img/rara.webp"
+image: assets/images/rara.webp
 catalog: true
 tags:
     - Travel

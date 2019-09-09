@@ -4,7 +4,7 @@ title: "The Making of Banana Bread | Home Cooking"
 subtitle:   "Microwaving simplest and easiest banana bread at home."
 date:       2019-08-14
 author:     "Aayusha"
-image: assets/images/bananabreakblurred.jpg
+image: assets/images/bananabreakblurred.webp
 catalog: true
 tags:
    - Food

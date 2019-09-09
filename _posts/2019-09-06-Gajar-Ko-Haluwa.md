@@ -4,7 +4,7 @@ title: "Gajar Ko Haluwa | Home Cooking"
 subtitle:   "A dessert for Nepali palate."
 date:       2019-09-06
 author:     "Aayusha"
-image: assets/images/gajarkohaluwa.jpg
+image: assets/images/gajarkohaluwa.webp
 catalog: true
 tags:
    - Food
