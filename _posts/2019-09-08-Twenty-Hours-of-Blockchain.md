@@ -4,7 +4,7 @@ title: "Twenty Hours of Blockchain | With eSatya "
 subtitle:   "A journal on Blockchain and a course I indulged myself in."
 date:       2019-09-08
 author:     "Aayusha"
-image: assets/images/smiles.jpg
+image: assets/images/blockchain.jpg
 catalog: true
 tags:
     - Technology
