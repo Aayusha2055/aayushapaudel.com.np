@@ -2,7 +2,7 @@
 name: 'Aayusha Writes'
 description: 'Writing and making memories.'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/Webp.net-compress-image.webp'
+favicon: 'assets/images/Webp.net-compress-image.jpg'
 baseurl: ''
 disqus: 'aayushapaudel'
 email: 'aayushapaudel.com.np@gmail.com'
@@ -24,7 +24,7 @@ authors:
     Aayusha:
       name:           Aayusha
       site:           https://github.com/Aayusha2055
-      avatar:         /assets/images/avatar.webp
+      avatar:         /assets/images/aayusha.jpg
       bio:            "Hi, I am Aayusha, a blogger, who loves to explore people and places and keep writing about it. I hope you like it!"
       email:          aayusha2055@gmail.com
       twitter:        https://twitter.com/aayusha_p
@@ -38,7 +38,7 @@ defaults:
     values:
       layout: post
       author: Aayusha
-      avatar: /assets/images/avatar.webp
+      avatar: /assets/images/aayusha.jpg
       
   # all pages
   - scope:

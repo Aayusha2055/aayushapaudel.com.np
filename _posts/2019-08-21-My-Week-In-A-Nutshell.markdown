@@ -19,7 +19,7 @@ tags:
     - Intuition
     - Thisweek
     
-categories: [ Life, People, Weekly Journal ]   
+categories: [ Life, People, Journal ]   
 ---
 
 It's pretty hard to justify what it is like to be busy as a student when the world assumes you're not. A student also has
