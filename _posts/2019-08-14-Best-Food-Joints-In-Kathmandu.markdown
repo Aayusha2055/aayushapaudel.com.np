@@ -4,7 +4,7 @@ title: "Kathmandu Food Tour | Local Eateries"
 subtitle:   "The tastiest and cheapest eats in Kathmandu."
 date:       2019-08-14 
 author:     "Aayusha"
-image: assets/images/street.webp
+image: assets/images/street.jpg
 catalog: true
 tags:
     - Food

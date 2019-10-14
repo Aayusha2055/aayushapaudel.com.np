@@ -29,7 +29,7 @@ It simply feels good to connect with my readers through my writing.
 And ever since I have started blogging, every single thing I do makes me do it "bloggable". Therefore, this time I decided
 to go hunt the famous middle east food called the <mark class="text-primary">'shwarma roll'</mark> in the alleys of Thamel. My love for rolls initially started with 
 a huge influence from someone I heart very much. He is basically heads over heels for rolls and my quest of surprising him 
-with a unique middle east flavour bought me to the place called Thamel Doner Kebab. The last I remember is they have amazing 
+with a unique middle east flavour bought me to the place called Thamel Doner Kebab. The last I remember, they have amazing 
 variety of stuffs you can make a roll out of which includes the doner kebab obviously, shwarma rolls and falafel rolls. 
 
 There are several take away shops in Kathmandu that offers you rolls but then we do not have any authentic Nepali rolls with Nepali
@@ -53,4 +53,9 @@ what we did). Once you find the Kathmandu Grand Hotel, the doner kebab shop is r
 
 <h2 class="text-primary">What did we order?</h2>
 
-TO BE CONTINUED!! 
+The menu there was a page long with so many items we had never heard our entire life, but we did knew that pieces of meat
+and fats were stacked over a rod which was slowly cooked in a circular motion with consistent heat coming from a heater and it was
+called the shwarma meat. Veggies, cheese, shwarma meat and their authentic sauce was kept in a flat bread and rolled to form
+a shwarma roll. And that is what we ordered. Any one who would want their roll to be gluten free could also order flat bread made
+up of wheat. The roll is slightly grilled to give the smokey flavour. Served with chilly sauce, normal tomato ketchup and veggies
+dipped in vinegar, I genuinely felt that this one is probably the finest shwarma roll we can find in Kathmandu.
