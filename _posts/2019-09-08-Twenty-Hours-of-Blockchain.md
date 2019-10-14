@@ -29,7 +29,7 @@ Every year our college introduces a series of workshops related to information t
 Unlike other technology, blockchain is relatively new and there are not many people who have been engaging in this technology. So, it must have been a great challenge for the administrative department to find the instructors suitable to teach the course. Nevertheless, they found cool developers who devoted themselves to Blockchain in Nepal. They were the blockchain geeks and worked in a company named eSatya. 
 
 
-Majik dai and Ruchin dai instructed us in the very first class. They were very enthusiastic and proactive. One could see their passion for the technology just by glancing at their t-shirt with the print "Blockchain Guy". They seemed to be very excited to find people sharing common interest concerning Blockchain technology. 
+Manjik dai and Ruchin dai instructed us in the very first class. They were very enthusiastic and proactive. One could see their passion for the technology just by glancing at their t-shirt with the print "Blockchain Guy". They seemed to be very excited to find people sharing common interest concerning Blockchain technology. 
 
 
 The first class was not directly about setting up the coding environment. It was about understanding why we were in that class and what we were about to learn. Further, the class also came up into clear understanding on what eSatya does for Nepal in the context of Blockchain. The class gradually became more interactive while discussing the stupidest curious stuff one could have. Afterward, we had a short presentation given by our instructors and the very first class ended with the installation of all the required materials to dig into the blockchain for the future lessons.  

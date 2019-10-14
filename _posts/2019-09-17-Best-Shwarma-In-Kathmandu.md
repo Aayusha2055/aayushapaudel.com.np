@@ -59,3 +59,7 @@ called the shwarma meat. Veggies, cheese, shwarma meat and their authentic sauce
 a shwarma roll. And that is what we ordered. Any one who would want their roll to be gluten free could also order flat bread made
 up of wheat. The roll is slightly grilled to give the smokey flavour. Served with chilly sauce, normal tomato ketchup and veggies
 dipped in vinegar, I genuinely felt that this one is probably the finest shwarma roll we can find in Kathmandu.
+
+
+I surely recommend you to visit the place and try their shwarma at least once. It might not be your go to place when you're hungry
+but it obviously would be a dish you would not regret trying on.
